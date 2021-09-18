@@ -3,7 +3,7 @@ let dataArr;
 const data = fs.readFileSync('../Source/AOC_Day1_Input.txt', 'utf8')
 // (err, data) => {
 dataArr = data.toString().split('\n')
-input = dataArr.map(num => parseInt(num))
+//input = dataArr.map(num => parseInt(num))
 //console.log("start" + dataArr)
 //console.log(dataArr)
 
